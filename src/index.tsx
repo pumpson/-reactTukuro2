@@ -1,8 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import './component/Game/game.css';
 import App from './App';
+import Mekon from './Mekon';
 import reportWebVitals from './reportWebVitals';
+import Game from "./component/Game/Game";
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -10,6 +13,10 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     <App />
+    
+    <Mekon />
+    
+    <Game />
   </React.StrictMode>
 );
 
